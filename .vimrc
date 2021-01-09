@@ -24,6 +24,10 @@ set formatoptions-=cro
 
 set laststatus=2
 
+set noshowmode
+
+let g:airline_theme='bubblegum'
+
 autocmd BufNewFile,BufRead * setlocal formatoptions-=cro
 
 highlight Normal ctermbg=None
