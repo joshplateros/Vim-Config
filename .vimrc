@@ -7,6 +7,8 @@ set number relativenumber
 call plug#begin()
 
 Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
@@ -19,6 +21,8 @@ set t_ut=""
 set visualbell
 
 set formatoptions-=cro
+
+set laststatus=2
 
 autocmd BufNewFile,BufRead * setlocal formatoptions-=cro
 
